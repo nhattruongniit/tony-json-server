@@ -32,24 +32,26 @@ server.use((req, res, next) => {
 router.render = (req, res) => {
   const headers = res.getHeaders();
   const totalCount = headers['x-total-count'];
-
-  if (!totalCount) {
-    res.jsonp({
+  if (req.method === 'GET' && totalCount) {
+    const queryParams = queryString.parse(req._parsedUrl.query);
+    const result = {
       data: res.locals.data,
-    })
-    return;
-  }
-
-  const queryParams = queryString.parse(req._parsedUrl.query);
-  const result = {
-    data: res.locals.data,
-    pagination: {
-      page: Number(queryParams._page) || 1,
-      limit: Number(queryParams._limit) || 10,
-      totalCount: Number(totalCount)
+      pagination: {
+        page: Number(queryParams._page) || 1,
+        limit: Number(queryParams._limit) || 10,
+        totalCount: Number(totalCount)
+      }
     }
+    return res.jsonp(result)
+  } else if (req.method === 'DELETE') {
+    return res.jsonp({
+      message: "Successfully",
+    })
   }
-  return res.jsonp(result)
+  return res.jsonp({
+    data: res.locals.data,
+  })
+ 
 }
 
 // Use default router

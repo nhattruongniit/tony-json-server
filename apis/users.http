@@ -28,7 +28,7 @@ Content-Type: application/json
 ###
 
 # delete user
-DELETE {{baseUrl}}/users/2Wr2PlR
+DELETE {{baseUrl}}/users/PZz1SBK
 Content-Type: application/json
 
 ###
