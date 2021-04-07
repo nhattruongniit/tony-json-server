@@ -5,6 +5,9 @@
 ```bash
 # run localhost:4000
 $ npm run dev
+
+# generate data
+$ npm run generate-data
 ```
 
 ```bash
@@ -13,6 +16,8 @@ $ npm run dev
 ```
 
 ## Routes
+
+API: https://tony-json-server.herokuapp.com/
 
 ```bash
 # GET LIST
