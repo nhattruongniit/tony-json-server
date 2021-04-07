@@ -16,19 +16,19 @@ $ npm run dev
 
 ```bash
 # GET LIST
-GET     /users
-GET     /todos
+GET     /api/users
+GET     /api/todos
 
 # PAGINATION
-GET     /users?_page=1&_limit=10
-GET     /todos?_page=1&_limit=10
+GET     /api/users?_page=1&_limit=10
+GET     /api/todos?_page=1&_limit=10
 
 # DELETE
-DELETE  /users/{userId}
-DELETE  /todos/{todoId}
+DELETE  /api/users/{userId}
+DELETE  /api/todos/{todoId}
 
 # UPDATE
-PATCH   /users/{userId}
+PATCH   /api/users/{userId}
 Content-Type: application/json
 
 {
@@ -37,8 +37,9 @@ Content-Type: application/json
 }
 
 # ADD NEW
-POST    /users
+POST    /api/users
 Content-Type: application/json
+
 {
   "name": "Leanne Graham 1",
   "email": "aincere@april.biz"
