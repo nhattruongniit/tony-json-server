@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run generate-data && node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "generate-data": "node generateData.js"
   },
@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "json-server": "^0.16.3",
+    "query-string": "^7.0.0"
   },
   "devDependencies": {
     "faker": "^5.5.2",

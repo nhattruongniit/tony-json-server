@@ -39,8 +39,8 @@ const randomTodoList = (userList, numbers) => {
 }
 
 
-const userList = randomUserList(2)
-const todoList = randomTodoList(userList, 2)
+const userList = randomUserList(5)
+const todoList = randomTodoList(userList, 3)
 
 const db = {
   users: userList,
