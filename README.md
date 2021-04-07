@@ -6,3 +6,8 @@
 # run localhost:4000
 $ npm run dev
 ```
+
+```bash
+# refer: https://www.npmjs.com/package/json-server
+# fetch api
+```

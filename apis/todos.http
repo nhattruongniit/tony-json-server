@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:4000/api
+
+## get todo list
+GET {{baseUrl}}/todos
+
+###
+
+## get single todo
+GET {{baseUrl}}/todos/1146408e-9991-4687-a713-dc2b6031eb28
+
+###
+
+## get todo of userId
+GET {{baseUrl}}/todos?userId=92ab35a0-20bd-485c-8d4b-4f45494f40f5
