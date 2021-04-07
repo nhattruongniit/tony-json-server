@@ -33,6 +33,7 @@ DELETE  /api/users/{userId}
 DELETE  /api/todos/{todoId}
 
 # UPDATE
+# user
 PATCH   /api/users/{userId}
 Content-Type: application/json
 
@@ -41,12 +42,34 @@ Content-Type: application/json
   "address": "Nguyen Trai"
 }
 
+# todo
+PATCH   /api/todos/{todoId}
+Content-Type: application/json
+
+{
+  "description": "sequi rerum inventore",
+  "severity": "low",
+  "status": "open",
+}
+
 # ADD NEW
+# user
 POST    /api/users
 Content-Type: application/json
 
 {
   "name": "Leanne Graham 1",
   "email": "aincere@april.biz"
+}
+
+# todo
+POST    /api/todos
+Content-Type: application/json
+
+{
+  "userId": {userId},
+  "description": "sequi rerum inventore",
+  "severity": "low",
+  "status": "open",
 }
 ```
