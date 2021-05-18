@@ -1,0 +1,26 @@
+@baseUrl = http://localhost:4000/api
+
+# add new photo
+POST {{baseUrl}}/photos
+Content-Type: application/json
+
+{
+  "name": "Natural",
+  "image": "http://placeimg.com/640/480/city",
+  "description": "This is a wider card with supporting text below as a natural lead-in to additional content"
+}
+
+###
+
+## get photo list
+GET {{baseUrl}}/photos
+
+###
+
+# get single photo
+GET {{baseUrl}}/photos/fa0f07ca-36be-4790-95bb-5b277353ce3a
+
+###
+
+# pagination
+GET {{baseUrl}}/photos?_page=1&_limit=10

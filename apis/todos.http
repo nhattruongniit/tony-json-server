@@ -1,12 +1,25 @@
 @baseUrl = http://localhost:4000/api
 
+# add new todo
+POST {{baseUrl}}/todos
+Content-Type: application/json
+
+{
+  "userId": "f27c6096-d767-4fc8-90d8-48130a9fd29d",
+  "description": "learn javascript",
+  "severity": "medium",
+  "status": "open"
+}
+
+###
+
 ## get todo list
 GET {{baseUrl}}/todos
 
 ###
 
 # get single todo
-GET {{baseUrl}}/todos/1146408e-9991-4687-a713-dc2b6031eb28
+GET {{baseUrl}}/todos/f27c6096-d767-4fc8-90d8-48130a9fd29d
 
 ###
 

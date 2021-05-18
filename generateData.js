@@ -10,6 +10,9 @@ const randomUserList = numbers => {
       id: faker.random.uuid(),
       name: faker.name.findName(),
       email: faker.internet.email().toLocaleLowerCase(),
+      phone: faker.phone.phoneNumber(),
+      address: `${faker.address.streetAddress()}, ${faker.address.city()}`,
+      jobTitle: faker.name.jobTitle(),
       createdAt: Date.now(),
       updatedAt: Date.now()
     })
@@ -38,13 +41,31 @@ const randomTodoList = (userList, numbers) => {
   return todoList
 }
 
+const randomPhoto = numbers => {
+  if (numbers <= 0 ) return [];
+
+  const newObj = [];
+  Array.from(new Array(numbers)).forEach(() => {
+    newObj.push({
+      id: faker.random.uuid(),
+      name: faker.lorem.words(),
+      image: faker.image.image(),
+      description: faker.lorem.words(),
+      createdAt: Date.now(),
+      updatedAt: Date.now()
+    })
+  })
+  return newObj
+}
 
 const userList = randomUserList(5)
 const todoList = randomTodoList(userList, 3)
+const photoList = randomPhoto(15)
 
 const db = {
   users: userList,
-  todos: todoList
+  todos: todoList,
+  photos: photoList
 };
 
 fs.writeFile('db.json', JSON.stringify(db), () => {
