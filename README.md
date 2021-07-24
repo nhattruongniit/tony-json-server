@@ -61,7 +61,6 @@ Content-Type: application/json
 # UPDATE
 PATCH   /api/users/{userId}
 Content-Type: application/json
-
 {
   "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
   "firstName": "Graham 1",
@@ -99,7 +98,6 @@ Content-Type: application/json
 # UPDATE
 PATCH   /api/todos/{todoId}
 Content-Type: application/json
-
 {
   "title": "Learn React",
   "author": "Tony Nguyen",
@@ -112,7 +110,6 @@ Content-Type: application/json
 # ADD NEW
 POST    /api/todos
 Content-Type: application/json
-
 {
   "title": "Learn React",
   "author": "Tony Nguyen",
@@ -139,7 +136,6 @@ Content-Type: application/json
 # UPDATE
 PATCH   /api/photos/{photoId}
 Content-Type: application/json
-
 {
   "title": "Sports 2",
   "category": "sports",
