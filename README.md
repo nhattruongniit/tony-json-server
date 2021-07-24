@@ -21,6 +21,8 @@ API: https://tony-json-server.herokuapp.com/
 
 ### USERS
 
+https://tony-json-server.herokuapp.com/api/users
+
 ```bash
 # GET LIST
 GET     /api/users
@@ -85,6 +87,8 @@ Content-Type: application/json
 
 ### TODOS
 
+https://tony-json-server.herokuapp.com/api/todos
+
 ```bash
 # GET LIST
 GET     /api/todos
@@ -125,6 +129,8 @@ Content-Type: application/json
 ```
 
 ### PHOTOS
+
+https://tony-json-server.herokuapp.com/api/photos
 
 ```bash
 # GET LIST
