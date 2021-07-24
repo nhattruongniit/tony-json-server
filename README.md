@@ -19,8 +19,9 @@ $ npm run generate-data
 
 API: https://tony-json-server.herokuapp.com/
 
+### USERS
+
 ```bash
-## USER
 # GET LIST
 GET     /api/users
 
@@ -80,8 +81,11 @@ Content-Type: application/json
     }
   ]
 }
+```
 
-## TODOS
+### TODOS
+
+```bash
 # GET LIST
 GET     /api/todos
 
@@ -118,8 +122,11 @@ Content-Type: application/json
   "severity": "low",
   "status": "new",
 }
+```
 
-## PHOTOS
+### PHOTOS
+
+```bash
 # GET LIST
 GET     /api/photos
 
