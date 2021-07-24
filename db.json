@@ -2,182 +2,272 @@
   "users": [
     {
       "id": "f27c6096-d767-4fc8-90d8-48130a9fd29d",
-      "name": "Leonard Ebert",
-      "email": "kenny_harvey@yahoo.com",
+      "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
+      "firstName": "Graham 1",
+      "lastName": "Leanne",
+      "email": "aincere@april.biz",
+      "role": "operator",
+      "location": [
+        {
+          "address": "243 Nguyen Thi Minh Khai",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        },
+        {
+          "address": "425 Nguyen Bieu",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        }
+      ],
       "createdAt": 1617807944605,
-      "updatedAt": 1617807944605
+      "updatedAt": 1617807944605,
+      "updateAt": 1627136410157
     },
     {
       "id": "4364309d-742a-4b18-bf3e-4bc74e4ff934",
-      "name": "Dr. Willie Hessel",
+      "avatar": "https://cdn.fakercloud.com/avatars/adityasutomo_128.jpg",
+      "firstName": "Hessel",
+      "lastName": "Dr. Willie",
       "email": "mathilde55@hotmail.com",
+      "role": "operator",
+      "location": [
+        {
+          "address": "243 Nguyen Thi Minh Khai",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        },
+        {
+          "address": "425 Nguyen Bieu",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        }
+      ],
       "createdAt": 1617807944605,
       "updatedAt": 1617807944605
     },
     {
       "id": "1f3068d5-4c98-4e6e-8cfb-a2d875ac75f5",
-      "name": "Shelly Bayer",
+      "avatar": "https://cdn.fakercloud.com/avatars/designervzm_128.jpg",
+      "firstName": "Bayer",
+      "lastName": "Shelly",
       "email": "lilian.collins96@yahoo.com",
+      "role": "operator",
+      "location": [
+        {
+          "address": "243 Nguyen Thi Minh Khai",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        },
+        {
+          "address": "425 Nguyen Bieu",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        }
+      ],
       "createdAt": 1617807944605,
       "updatedAt": 1617807944605
     },
     {
       "id": "e248fb6d-6ff6-41f2-b7ee-705f0b37f46f",
-      "name": "Rafael Jast I",
+      "avatar": "https://cdn.fakercloud.com/avatars/wesleytrankin_128.jpg",
+      "firstName": "Jast I",
+      "lastName": "Rafael",
       "email": "arnaldo.stracke73@yahoo.com",
+      "role": "collaborator",
+      "location": [
+        {
+          "address": "243 Nguyen Thi Minh Khai",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        },
+        {
+          "address": "425 Nguyen Bieu",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        }
+      ],
       "createdAt": 1617807944605,
       "updatedAt": 1617807944605
     },
     {
       "id": "38837254-43db-4008-ace7-f68640eab17e",
-      "name": "Gregg Dooley",
+      "avatar": "https://cdn.fakercloud.com/avatars/jakemoore_128.jpg",
+      "firstName": "Dooley",
+      "lastName": "Gregg",
       "email": "carmelo_hammes@gmail.com",
+      "role": "collaborator",
+      "location": [
+        {
+          "address": "243 Nguyen Thi Minh Khai",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        },
+        {
+          "address": "425 Nguyen Bieu",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        }
+      ],
       "createdAt": 1617807944605,
       "updatedAt": 1617807944605
     },
     {
-      "name": "Leanne Graham 1",
+      "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
+      "firstName": "Graham 1",
+      "lastName": "Leanne",
       "email": "aincere@april.biz",
-      "createdAt": 1617810492175,
-      "updateAt": 1617810492175,
-      "id": "qVMg8DD"
+      "role": "operator",
+      "location": [
+        {
+          "address": "243 Nguyen Thi Minh Khai",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        },
+        {
+          "address": "425 Nguyen Bieu",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        }
+      ],
+      "createdAt": 1627133868889,
+      "updateAt": 1627133868889,
+      "id": "H0GmRpT"
+    },
+    {
+      "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
+      "firstName": "Graham 1",
+      "lastName": "Leanne",
+      "email": "aincere@april.biz",
+      "role": "operator",
+      "location": [
+        {
+          "address": "243 Nguyen Thi Minh Khai",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        },
+        {
+          "address": "425 Nguyen Bieu",
+          "district": "Phu Nhuan",
+          "city": "TP.HCM"
+        }
+      ],
+      "createdAt": 1627134132407,
+      "updateAt": 1627134132407,
+      "id": "48KBVQ_"
+    },
+    {
+      "title": "Learn React",
+      "author": "Tony Nguyen",
+      "description": "nihil aut laudantium",
+      "progress": 0,
+      "severity": "low",
+      "status": "new",
+      "createdAt": 1627135446657,
+      "updatedAt": 1617807944606,
+      "updateAt": 1627135446657,
+      "id": "nXppgmQ"
+    },
+    {
+      "title": "Learn React",
+      "author": "Tony Nguyen",
+      "description": "nihil aut laudantium",
+      "progress": 0,
+      "severity": "low",
+      "status": "new",
+      "createdAt": 1627135523764,
+      "updatedAt": 1617807944606,
+      "updateAt": 1627135523764,
+      "id": "TRp1PxI"
     }
   ],
   "todos": [
     {
       "id": "77555a95-4712-4d21-b640-d31e8648771e",
-      "userId": "f27c6096-d767-4fc8-90d8-48130a9fd29d",
+      "title": "Learn React",
+      "author": "Tony Nguyen",
       "description": "nihil aut laudantium",
+      "progress": 0,
       "severity": "low",
-      "status": "open",
+      "status": "new",
       "createdAt": 1617807944606,
       "updatedAt": 1617807944606
     },
     {
-      "id": "a042621a-98ef-4c3f-8f43-a4c28b23447b",
-      "userId": "f27c6096-d767-4fc8-90d8-48130a9fd29d",
-      "description": "reiciendis rerum perspiciatis",
+      "id": "412avae-4712-4d21-n452-d31e8648771e",
+      "title": "Learn Javascript",
+      "author": "Tony Nguyen",
+      "description": "nihil aut laudantium",
+      "progress": 0,
       "severity": "low",
-      "status": "open",
+      "status": "new",
       "createdAt": 1617807944606,
       "updatedAt": 1617807944606
     },
     {
-      "id": "6adcc6ed-ad02-400e-b957-a8249fd89df3",
-      "userId": "f27c6096-d767-4fc8-90d8-48130a9fd29d",
-      "description": "voluptatibus adipisci maxime",
+      "id": "412avae-4712-4d21-n452-beq312ac",
+      "title": "Learn HTML",
+      "author": "Tony Nguyen",
+      "description": "nihil aut laudantium",
+      "progress": 0,
       "severity": "low",
-      "status": "open",
+      "status": "new",
       "createdAt": 1617807944606,
       "updatedAt": 1617807944606
     },
     {
-      "id": "957d4db5-22f3-4dc5-acd0-7d497ce18def",
-      "userId": "4364309d-742a-4b18-bf3e-4bc74e4ff934",
-      "description": "vel est ut",
+      "id": "412avae-4712-4d21-f231-beq312ac",
+      "title": "Learn HTML",
+      "author": "Tony Nguyen",
+      "description": "nihil aut laudantium",
+      "progress": 0,
       "severity": "low",
-      "status": "open",
+      "status": "new",
       "createdAt": 1617807944606,
       "updatedAt": 1617807944606
     },
     {
-      "id": "26dbc8e9-1ef8-403f-beb9-29a23466c185",
-      "userId": "4364309d-742a-4b18-bf3e-4bc74e4ff934",
-      "description": "error et in",
+      "id": "214adadf-4712-4d21-f231-r213s",
+      "title": "Learn HTML",
+      "author": "Tony Nguyen",
+      "description": "nihil aut laudantium",
+      "progress": 0,
       "severity": "low",
-      "status": "open",
+      "status": "new",
       "createdAt": 1617807944606,
       "updatedAt": 1617807944606
     },
     {
-      "id": "df79aa1a-375a-4efa-b63c-d14aaef12236",
-      "userId": "4364309d-742a-4b18-bf3e-4bc74e4ff934",
-      "description": "autem assumenda ratione",
+      "title": "Learn React",
+      "author": "Tony Nguyen",
+      "description": "nihil aut laudantium",
+      "progress": 0,
       "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
+      "status": "new",
+      "createdAt": 1627135535957,
+      "updatedAt": 1617807944606,
+      "updateAt": 1627135535957,
+      "id": "NfUsDcb"
+    }
+  ],
+  "photos": [
+    {
+      "title": "Sports 1",
+      "category": "sports",
+      "description": "nihil aut laudantium",
+      "image": "http://placeimg.com/640/480/sports",
+      "createdAt": 1627135535957,
+      "updatedAt": 1617807944606,
+      "updateAt": 1627135535957,
+      "id": "Ndasrt23"
     },
     {
-      "id": "475c8a8d-79e4-4586-ad03-507114192a8b",
-      "userId": "1f3068d5-4c98-4e6e-8cfb-a2d875ac75f5",
-      "description": "laudantium sed tenetur",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
-    },
-    {
-      "id": "e063c8fc-6fc3-4f53-a5f2-955e061ffdef",
-      "userId": "1f3068d5-4c98-4e6e-8cfb-a2d875ac75f5",
-      "description": "delectus debitis nemo",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
-    },
-    {
-      "id": "c447b6a9-fff3-46fd-b6ea-b113c6ca7965",
-      "userId": "1f3068d5-4c98-4e6e-8cfb-a2d875ac75f5",
-      "description": "iste aut nisi",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
-    },
-    {
-      "id": "7445042e-c070-4807-8a9d-d48cade336a0",
-      "userId": "e248fb6d-6ff6-41f2-b7ee-705f0b37f46f",
-      "description": "ea maxime ut",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
-    },
-    {
-      "id": "4d717662-e04b-4c37-84d9-f9db61fea2c0",
-      "userId": "e248fb6d-6ff6-41f2-b7ee-705f0b37f46f",
-      "description": "ex facilis natus",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
-    },
-    {
-      "id": "71acdb70-21a6-47fd-aa0e-66df2a0160fa",
-      "userId": "e248fb6d-6ff6-41f2-b7ee-705f0b37f46f",
-      "description": "sequi rerum inventore",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
-    },
-    {
-      "id": "80bfc8e9-8a7a-4487-8aa5-c5bde860ea47",
-      "userId": "38837254-43db-4008-ace7-f68640eab17e",
-      "description": "quia at et",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944606,
-      "updatedAt": 1617807944606
-    },
-    {
-      "id": "1d4ef46a-02d1-4b08-b0b0-41a5cb27d148",
-      "userId": "38837254-43db-4008-ace7-f68640eab17e",
-      "description": "repellat alias perspiciatis",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944607,
-      "updatedAt": 1617807944607
-    },
-    {
-      "id": "a928d513-8db8-472a-8829-062080f5f372",
-      "userId": "38837254-43db-4008-ace7-f68640eab17e",
-      "description": "ut laborum laudantium",
-      "severity": "low",
-      "status": "open",
-      "createdAt": 1617807944607,
-      "updatedAt": 1617807944607
+      "title": "Sports ",
+      "category": "fashion",
+      "description": "nihil aut laudantium",
+      "image": "http://placeimg.com/640/480/sports",
+      "createdAt": 1627139763970,
+      "updateAt": 1627139789369,
+      "id": "kBgsiiY"
     }
   ]
 }

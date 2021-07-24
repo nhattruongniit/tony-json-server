@@ -20,56 +20,143 @@ $ npm run generate-data
 API: https://tony-json-server.herokuapp.com/
 
 ```bash
+## USER
 # GET LIST
 GET     /api/users
-GET     /api/todos
+
+# GET SINGE USER
+GET {{baseUrl}}/users/77555a95-4712-4d21-b640-d31e8648771e
 
 # PAGINATION
 GET     /api/users?_page=1&_limit=10
-GET     /api/todos?_page=1&_limit=10
 
-# DELETE
-DELETE  /api/users/{userId}
-DELETE  /api/todos/{todoId}
-
-# UPDATE
-# user
-PATCH   /api/users/{userId}
-Content-Type: application/json
-
-{
-  "phone": "090734232",
-  "address": "Nguyen Trai"
-}
-
-# todo
-PATCH   /api/todos/{todoId}
-Content-Type: application/json
-
-{
-  "description": "sequi rerum inventore",
-  "severity": "low",
-  "status": "open",
-}
-
-# ADD NEW
-# user
+# ADD
 POST    /api/users
 Content-Type: application/json
 
 {
-  "name": "Leanne Graham 1",
-  "email": "aincere@april.biz"
+  "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
+  "firstName": "Graham 1",
+  "lastName": "Leanne",
+  "email": "aincere@april.biz",
+  "role": "operator",
+  "location": [
+    {
+      "address": "243 Nguyen Thi Minh Khai",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    },
+    {
+      "address": "425 Nguyen Bieu",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    }
+  ]
 }
 
-# todo
+# DELETE
+DELETE  /api/users/{userId}
+Content-Type: application/json
+
+# UPDATE
+PATCH   /api/users/{userId}
+Content-Type: application/json
+
+{
+  "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
+  "firstName": "Graham 1",
+  "lastName": "Leanne",
+  "email": "aincere@april.biz",
+  "role": "operator",
+  "location": [
+    {
+      "address": "243 Nguyen Thi Minh Khai",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    },
+    {
+      "address": "425 Nguyen Bieu",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    }
+  ]
+}
+
+## TODOS
+# GET LIST
+GET     /api/todos
+
+# GET SINGE TODO
+GET {{baseUrl}}/todos/77555a95-4712-4d21-b640-d31e8648771e
+
+# PAGINATION
+GET     /api/todos?_page=1&_limit=10
+
+# DELETE
+DELETE  /api/todos/{todoId}
+Content-Type: application/json
+
+# UPDATE
+PATCH   /api/todos/{todoId}
+Content-Type: application/json
+
+{
+  "title": "Learn React",
+  "author": "Tony Nguyen",
+  "description": "nihil aut laudantium",
+  "progress": 0,
+  "severity": "low",
+  "status": "new",
+}
+
+# ADD NEW
 POST    /api/todos
 Content-Type: application/json
 
 {
-  "userId": {userId},
-  "description": "sequi rerum inventore",
+  "title": "Learn React",
+  "author": "Tony Nguyen",
+  "description": "nihil aut laudantium",
+  "progress": 0,
   "severity": "low",
-  "status": "open",
+  "status": "new",
 }
+
+## PHOTOS
+# GET LIST
+GET     /api/photos
+
+# GET SINGE PHOTO
+GET {{baseUrl}}/photos/77555a95-4712-4d21-b640-d31e8648771e
+
+# PAGINATION
+GET     /api/photos?_page=1&_limit=10
+
+# DELETE
+DELETE  /api/photos/{photoId}
+Content-Type: application/json
+
+# UPDATE
+PATCH   /api/photos/{photoId}
+Content-Type: application/json
+
+{
+  "title": "Sports 2",
+  "category": "sports",
+  "description": "nihil aut laudantium",
+  "image": "http://placeimg.com/640/480/sports"
+}
+
+
+# ADD NEW
+POST    /api/photos
+Content-Type: application/json
+
+{
+  "title": "Sports 2",
+  "category": "sports",
+  "description": "nihil aut laudantium",
+  "image": "http://placeimg.com/640/480/sports"
+}
+
 ```

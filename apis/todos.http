@@ -6,12 +6,48 @@ GET {{baseUrl}}/todos
 ###
 
 # get single todo
-GET {{baseUrl}}/todos/1146408e-9991-4687-a713-dc2b6031eb28
+GET {{baseUrl}}/todos/77555a95-4712-4d21-b640-d31e8648771e
 
 ###
 
-# get todo of userId
-GET {{baseUrl}}/todos?userId=92ab35a0-20bd-485c-8d4b-4f45494f40f5
+# add new todo
+POST {{baseUrl}}/todos
+Content-Type: application/json
+
+{
+  "title": "Learn React",
+  "author": "Tony Nguyen",
+  "description": "nihil aut laudantium",
+  "progress": 0,
+  "severity": "low",
+  "status": "new",
+  "createdAt": 1617807944606,
+  "updatedAt": 1617807944606
+}
+
+
+###
+
+# update todo
+PATCH {{baseUrl}}/todos/aH5vT_I
+Content-Type: application/json
+
+{
+  "title": "Learn React",
+  "author": "Tony Nguyen",
+  "description": "nihil aut laudantium",
+  "progress": 0,
+  "severity": "low",
+  "status": "new",
+  "createdAt": 1617807944606,
+  "updatedAt": 1617807944606
+}
+
+###
+
+# delete todo
+DELETE {{baseUrl}}/todos/gHIk2tx
+Content-Type: application/json
 
 ###
 

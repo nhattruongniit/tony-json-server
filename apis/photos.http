@@ -1,0 +1,46 @@
+@baseUrl = http://localhost:4000/api
+
+# get photos
+GET {{baseUrl}}/photos
+
+###
+# get single photo
+GET {{baseUrl}}/photos/Ndasrt23
+
+###
+
+# add new photo
+POST {{baseUrl}}/photos
+Content-Type: application/json
+
+{
+  "title": "Sports 2",
+  "category": "sports",
+  "description": "nihil aut laudantium",
+  "image": "http://placeimg.com/640/480/sports"
+}
+
+###
+
+# update photo
+PATCH {{baseUrl}}/photos/kBgsiiY
+Content-Type: application/json
+
+{
+  "title": "Sports ",
+  "category": "fashion",
+  "description": "nihil aut laudantium",
+  "image": "http://placeimg.com/640/480/sports"
+}
+
+
+###
+
+# delete photo
+DELETE {{baseUrl}}/photos/PZz1SBK
+Content-Type: application/json
+
+###
+
+# pagination
+GET {{baseUrl}}/photos?_page=1&_limit=10

@@ -4,26 +4,61 @@
 GET {{baseUrl}}/users
 
 ###
+# get single user
+GET {{baseUrl}}/users/f27c6096-d767-4fc8-90d8-48130a9fd29d
+
+###
 
 # add new user
 POST {{baseUrl}}/users
 Content-Type: application/json
 
 {
-  "name": "Leanne Graham 1",
-  "email": "aincere@april.biz"
+  "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
+  "firstName": "Graham 1",
+  "lastName": "Leanne",
+  "email": "aincere@april.biz",
+  "role": "operator",
+  "location": [
+    {
+      "address": "243 Nguyen Thi Minh Khai",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    },
+    {
+      "address": "425 Nguyen Bieu",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    }
+  ]
 }
 
 ###
 
 # update user
-PATCH {{baseUrl}}/users/aH5vT_I
+PATCH {{baseUrl}}/users/f27c6096-d767-4fc8-90d8-48130a9fd29d
 Content-Type: application/json
 
 {
-  "phone": "090734232",
-  "address": "140/32 Dang Van Ngu"
+  "avatar": "https://cdn.fakercloud.com/avatars/ManikRathee_128.jpg",
+  "firstName": "Graham 1",
+  "lastName": "Leanne",
+  "email": "aincere@april.biz",
+  "role": "operator",
+  "location": [
+    {
+      "address": "243 Nguyen Thi Minh Khai",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    },
+    {
+      "address": "425 Nguyen Bieu",
+      "district": "Phu Nhuan",
+      "city": "TP.HCM"
+    }
+  ]
 }
+
 
 ###
 
