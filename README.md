@@ -110,7 +110,6 @@ Content-Type: application/json
   "title": "Learn React",
   "author": "Tony Nguyen",
   "description": "nihil aut laudantium",
-  "progress": 0,
   "severity": "low",
   "status": "new",
 }
@@ -122,7 +121,6 @@ Content-Type: application/json
   "title": "Learn React",
   "author": "Tony Nguyen",
   "description": "nihil aut laudantium",
-  "progress": 0,
   "severity": "low",
   "status": "new",
 }

@@ -29,7 +29,6 @@ const randomTodoList = numbers => {
       title: faker.name.title(),
       author: faker.name.findName(),
       description: faker.lorem.words(),
-      progress: 0,
       severity: 'low',
       status: 'new',
       createdAt: Date.now(),
